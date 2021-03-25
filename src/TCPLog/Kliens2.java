@@ -7,7 +7,7 @@ import java.net.Socket;
 public class Kliens2 {
     public static void main(String[] args) throws IOException {
         Socket s = new Socket("localhost", 1234);
-        String message = "Analóg műszerekkel Gagarin is fika";
+        String message = "Kutya, cica mérési hiba";
 
         PrintWriter pw = new PrintWriter(s.getOutputStream());
         pw.println(message);
